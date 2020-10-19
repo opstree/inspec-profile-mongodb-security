@@ -1,5 +1,5 @@
-mongo_username = attribute('username', default: "useradmin", description: 'User with which to log in to MongoDB')
-mongo_password = attribute('password', default: "passw0rd", description: 'Password with which to log in to MongoDB')
+mongo_username = attribute('username', default: "nil", description: 'User with which to log in to MongoDB')
+mongo_password = attribute('password', default: "nil", description: 'Password with which to log in to MongoDB')
 mongo_verify_ssl = attribute('verify_ssl', default: true, description: 'If true, SSL certificates will be validated')
 mongo_conf_file  = attribute('conf_file', default: '/etc/mongod.conf', description: 'Path to the mongod.conf file')
 
